@@ -3,11 +3,9 @@
 void checa_numero(int numero)
 {
 	if (numero >= 0)
-		if (numero%2 == 0) printf("NÚMERO PAR POSITIVO\n");
-		else printf("NÚMERO ÍMPAR POSITIVO\n");
+		numero % 2 == 0 ? printf("NÚMERO PAR POSITIVO\n") : printf("NÚMERO ÍMPAR POSITIVO\n");
 	else
-		if (numero%2 == 0) printf("NÚMERO PAR NEGATIVO\n");
-		else printf("NÚMERO ÍMPAR NEGATIVO\n");
+		numero % 2 == 0 ? printf("NÚMERO PAR NEGATIVO\n") : printf("NÚMERO ÍMPAR NEGATIVO\n");
 }	
 
 int main()
