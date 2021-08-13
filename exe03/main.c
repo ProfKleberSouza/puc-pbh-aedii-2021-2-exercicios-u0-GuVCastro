@@ -10,7 +10,8 @@ void checa_numero(int numero)
 		else printf("NÚMERO ÍMPAR NEGATIVO\n");
 }	
 
-int main() {
+int main()
+{
    int numero;
 
    printf("Informe um número: ");
