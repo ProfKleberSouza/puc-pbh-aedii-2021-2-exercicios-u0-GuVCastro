@@ -12,5 +12,5 @@ int main()
 	else
 		numero % 2 == 0 ? printf("NÚMERO PAR NEGATIVO\n") : printf("NÚMERO ÍMPAR NEGATIVO\n");
 
-   return 0;
+	return 0;
 }

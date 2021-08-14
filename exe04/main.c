@@ -13,4 +13,6 @@ int main() {
 	if (numero1 < numero2 && numero1 < numero3) printf("MENOR = %d\n", numero1);	
 	else if (numero2 < numero3) printf("MENOR = %d\n", numero2);	
 	else printf("MENOR = %d\n", numero3);
+
+	return 0;
 }
