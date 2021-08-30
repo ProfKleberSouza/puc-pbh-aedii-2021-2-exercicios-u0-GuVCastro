@@ -7,7 +7,10 @@ int main()
 
 	scanf("%f %f %f %f", &nota1, &nota2, &nota3, &nota4); 
 	media_notas = (nota1 + nota2 + nota3 + nota4) / 4;
-	printf("NOTA = %0.1f (APROVADO)\n", media_notas);
+	if (media_notas >= 6) 
+		printf("NOTA = %0.1f (APROVADO)\n", media_notas);
+	else 
+		printf("NOTA = %0.1f (REPROVADO)\n", media_notas);
 
 	return 0;
 }
