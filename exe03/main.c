@@ -4,13 +4,12 @@ int main()
 {
 	int numero;
 
-	printf("Informe um número: ");
 	scanf("%d", &numero);
 
 	if (numero >= 0)
-		numero % 2 == 0 ? printf("NÚMERO PAR POSITIVO\n") : printf("NÚMERO ÍMPAR POSITIVO\n");
+		numero % 2 == 0 ? printf("NUMERO PAR POSITIVO\n") : printf("NUMERO IMPAR POSITIVO\n");
 	else
-		numero % 2 == 0 ? printf("NÚMERO PAR NEGATIVO\n") : printf("NÚMERO ÍMPAR NEGATIVO\n");
+		numero % 2 == 0 ? printf("NUMERO PAR NEGATIVO\n") : printf("NUMERO IMPAR NEGATIVO\n");
 
 	return 0;
 }

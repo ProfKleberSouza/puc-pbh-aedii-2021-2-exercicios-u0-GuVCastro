@@ -1,8 +1,19 @@
 #include <stdio.h>
 
-int main() {
-   int n1, n2;
-   scanf("%i %i", &n1, &n2);
-   printf("SOMA = %i\n", n1+n2);
-   return 0;
+int main()
+{
+	float lado1 = 0, lado2 = 0, lado3 = 0;
+
+	scanf("%f %f %f", &lado1, &lado2, &lado3); 
+	if (lado1 >= 0 && lado2 >= 0 && lado3 >= 0) {
+		if (lado1 == lado2 && lado2 == lado3)
+			printf("TRIANGULO EQUILATERO\n"); 
+		else if (lado1 == lado2 || lado2 == lado3 || lado1 == lado3)
+			printf("TRIANGULO ISOCELES\n");
+		else if (lado1 != lado2 && lado2 != lado3 && lado1 != lado3)
+			printf("TRIANGULO ESCALENO\n"); 
+	} else
+		printf("ENTRADA INVALIDA\n"); 
+
+	return 0;
 }

@@ -3,9 +3,7 @@
 int main() {
 	int rendimento, velocidade, tempo, distancia, consumo;
 	
-	printf("Insira respectivamente o rendimento, velocidade média e tempo de viagem: ");
-	scanf("%d %d %d", &rendimento, &velocidade, &tempo);
-	
+	scanf("%d %d %d", &tempo, &velocidade, &rendimento);
 	distancia = velocidade * tempo;
 	consumo = distancia / rendimento;
 	
